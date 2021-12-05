@@ -1,0 +1,65 @@
+.nav-menu{
+	color: black;
+	background-color: lightblue;
+	font-family: sans-serif;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.nav-menu li{
+	list-style: none;
+	display: inline-block;
+	margin: 0.5em;
+}
+
+.nav-menu li .pull-down{
+	display: none;
+}
+
+.nav-menu li:hover{
+	color: white;
+}
+
+.nav-menu li:hover .pull-down{
+	display: block;
+	position: absolute;
+	background-color: lightgrey;
+	left: 0;
+	right: 0;
+}
+
+.nav-menu li:hover .pull-down li{
+	display: block;
+}
+
+.pull-down li{
+	color: black;
+}
+
+
+.row div{
+	
+	border: 1px solid lightgrey;
+	
+}
+
+.preview{
+	width: 100%;
+	height: auto;
+}
+
+
+
+#box{
+	background-color: white;
+}
+
+.main{
+	position: relative;
+	top: 60px;
+	z-index: -1;
+}
+
+

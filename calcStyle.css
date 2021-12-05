@@ -1,0 +1,38 @@
+#text-input{
+       width: 99%;
+       border-radius: 0.25em;
+       border-width: 0.1em;
+       height: 4em;
+       border-color: #D9DCE0;
+}
+
+  #rad-degree{
+       width: 99%;
+       background-color: #D9DCE0;
+       border-style: hidden;
+}
+  .button-1{
+       background-color: #D9DCE0;
+       border-style: hidden;
+       width: 6em;
+       height: 2em;
+       border-radius: 0.25em;
+       margin: 0.1em;
+}
+  .number{
+       background-color: #F0F3F4;
+       border-style: hidden;
+       width: 6em;
+       height: 2em;
+       border-radius: 0.25em;
+       margin: 0.1em;
+}
+  .equals{
+       background-color: #4284F3;
+       color: white;
+       border-style: hidden;
+       width: 6em;
+       height: 2em;
+       border-radius: 0.25em;
+       margin: 0.1em;
+}
